@@ -8,6 +8,9 @@ var bostonPlaces = ["Boston Common", "Freedom Trail", "Boston Harbor", "Harvard 
 "Massachussetts University of Technology", "Yale University"];
 var mainePlaces = ["Portland Head Lighthouse", "Acadia National Park", "Cadillac Mountain", "Victoria Mansion",
 "Portland Museum of Art", "Mount Katahdin"];
+var mainePlaces2 = {"Portland Head Lighthouse": "./Images/light.jpg", "Acadia National Park": "./Images/acadia.jpg",
+"Cadillac Mountain": "./Images/mount.jpg", "Victoria Mansion": "./Images/house.jpg",
+"Portland Museum of Art": "./Images/art.jpg", "Mount Katahdin": "./Images/kata.jpg"};
 var tenPlaces = ["Ruby Falls", "Lookout Mountain", "Cherokee National Forest", "Gatlinburg Skylift Park", "Rock City Gardens",
 "Memphis Zoo"];
 
@@ -55,7 +58,7 @@ function bostonPick(){
 
 function mainePick(){
   event.preventDefault();
-  Pick(mainePlaces);
+  Pick(mainePlaces, mainePlaces2);
 }
 
 function dcPick(){
