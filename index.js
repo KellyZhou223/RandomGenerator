@@ -1,27 +1,27 @@
 var nycPlaces = ["Statue of Liberty", "Empire State Building", "The Vessel", "MET Museum", "MOMA", "Natural History Museum"];
-var nycPlaces2 = {"Statue of Liberty": "./Images/statue.jpg", "Empire State Building" : "./Images/empire.jpg",
- "The Vessel": "./Images/vessel.jpg", "MET Museum": "./Images/met.jpg", "MOMA": "./Images/moma.jpg",
- "Natural History Museum": "./Images/amnh.jpeg"};
+var nycPlaces2 = {"Statue of Liberty": "./statue.jpg", "Empire State Building" : "./empire.jpg",
+ "The Vessel": "./vessel.jpg", "MET Museum": "./met.jpg", "MOMA": "./moma.jpg",
+ "Natural History Museum": "./amnh.jpeg"};
 var dcPlaces = ["The White House", "Lincoln Memorial", "Washington Monument", "Smithsonian National Zoo", "United States Capitol",
 "Smithsonian National Museum of Natural History"];
-var dcPlaces2 = {"The White House": "./Images/wh.jpg", "Lincoln Memorial": "./Images/lm.jpg",
-"Washington Monument": "./Images/wm.jpg", "Smithsonian National Zoo": "./Images/zoo.jpg",
-"United States Capitol": "./Images/capitol.jpg", "Smithsonian National Museum of Natural History": "./Images/museum.jpg"};
+var dcPlaces2 = {"The White House": "./wh.jpg", "Lincoln Memorial": "./lm.jpg",
+"Washington Monument": "./wm.jpg", "Smithsonian National Zoo": "./zoo.jpg",
+"United States Capitol": "./capitol.jpg", "Smithsonian National Museum of Natural History": "./museum.jpg"};
 var bostonPlaces = ["Boston Common", "Freedom Trail", "Boston Harbor", "Harvard University",
 "Massachussetts University of Technology", "Yale University"];
-var bostonPlaces2 = {"Boston Common": "./Images/common.jpg", "Freedom Trail": "./Images/freedom.jpg",
-"Boston Harbor": "./Images/harbor.jpg", "Harvard University": "./Images/harvard.jpg",
-"Massachussetts University of Technology": "./Images/mit.jpeg", "Yale University": "./Images/yale.jpg"};
+var bostonPlaces2 = {"Boston Common": "./common.jpg", "Freedom Trail": "./freedom.jpg",
+"Boston Harbor": "./harbor.jpg", "Harvard University": "./harvard.jpg",
+"Massachussetts University of Technology": "./mit.jpeg", "Yale University": "./yale.jpg"};
 var mainePlaces = ["Portland Head Lighthouse", "Acadia National Park", "Cadillac Mountain", "Victoria Mansion",
 "Portland Museum of Art", "Mount Katahdin"];
-var mainePlaces2 = {"Portland Head Lighthouse": "./Images/light.jpg", "Acadia National Park": "./Images/acadia.jpg",
-"Cadillac Mountain": "./Images/mount.jpg", "Victoria Mansion": "./Images/house.jpg",
-"Portland Museum of Art": "./Images/art.jpg", "Mount Katahdin": "./Images/kata.jpg"};
+var mainePlaces2 = {"Portland Head Lighthouse": "./light.jpg", "Acadia National Park": "./acadia.jpg",
+"Cadillac Mountain": "./mount.jpg", "Victoria Mansion": "./house.jpg",
+"Portland Museum of Art": "./art.jpg", "Mount Katahdin": "./kata.jpg"};
 var tenPlaces = ["Ruby Falls", "Lookout Mountain", "Cherokee National Forest", "Gatlinburg Skylift Park", "Rock City Gardens",
 "Memphis Zoo"];
-var tenPlaces2 = {"Ruby Falls": "./Images/ruby.jpg", "Lookout Mountain": "./Images/lookout.jpg",
-"Cherokee National Forest": "./Images/forest.jpg", "Gatlinburg Skylift Park": "./Images/skylift.jpg",
-"Rock City Gardens": "./Images/rock.jpg", "Memphis Zoo": "./Images/memphis.jpeg"};
+var tenPlaces2 = {"Ruby Falls": "./ruby.jpg", "Lookout Mountain": "./lookout.jpg",
+"Cherokee National Forest": "./forest.jpg", "Gatlinburg Skylift Park": "./skylift.jpg",
+"Rock City Gardens": "./rock.jpg", "Memphis Zoo": "./memphis.jpeg"};
 
 var nyc = $('#nyc');
 var dc = $('#dc');
