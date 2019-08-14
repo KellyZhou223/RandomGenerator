@@ -8,10 +8,15 @@ body{
   font-size: 60px;
 }
 
+h2{
+  text-align: center;
+  margin-top: -40px;
+}
+
 .container{
   display: flex;
   justify-content: flex-start;
-  padding-left: 100px;
+  padding-left: 50px;
   line-height: 2.0;
   border: 6px solid grey;
   border-radius: 10px;
@@ -19,7 +24,7 @@ body{
 }
 
 .button{
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .cities label{
@@ -46,9 +51,10 @@ body{
 
 .header2{
   position: absolute;
-  top: 200px;
+  top: 350px;
   left: 250px;
   right: 250px;
   text-align: center;
   font-size: 70px;
+  text-shadow: -2px -2px 5px white, -2px 2px 5px white, 2px 2px 5px white, 2px -2px 5px white;
 }
